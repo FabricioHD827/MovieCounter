@@ -115,7 +115,7 @@ fun UserRegistrationForm(modifier: Modifier = Modifier) {
         registrationMap.forEach { (dni, count) ->
             Text(
                 text = "DNI: $dni se ha registrado $count veces",
-                color = Color.Black
+                color = Color.Gray
             )
             Spacer(modifier = Modifier.height(8.dp))
         }
